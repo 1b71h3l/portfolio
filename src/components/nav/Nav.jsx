@@ -5,18 +5,20 @@ import {AiOutlineUser} from "react-icons/ai"
 import {GiNotebook} from "react-icons/gi"
 import {FaHandsHelping} from "react-icons/fa"
 import {BsFillChatDotsFill} from "react-icons/bs"
+import { useState } from 'react'
 
-const nav = () => {
+const Nav = () => {
+  const [activeNav,setActiveNav]= useState('#')
+
   return (
     <nav>
-    <a href="#" ><AiFillHome/></a>
-    <a href="#about" ><AiOutlineUser/></a>
-    <a href="#experience" ><GiNotebook/></a>
-    <a href="#services" ><FaHandsHelping/></a>
-    <a href="#contact" ><BsFillChatDotsFill/></a>
-
+    <a href="#" className={activeNav === '#' ? 'active' : ''} ><AiFillHome/></a>
+    <a href="#about" onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+    <a href="#experience" onClick={()=> setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><GiNotebook/></a>
+    <a href="#services" onClick={()=> setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><FaHandsHelping/></a>
+    <a href="#contact" onClick={()=> setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BsFillChatDotsFill/></a>
     </nav>
   )
 }
 
-export default nav
+export default Nav
