@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css"
-import ME from '../../assets/girll.png'
+import ME from '../../assets/pexels-julianajpg.jpg'
 import { TbAward } from 'react-icons/tb'
 import { FiUsers } from 'react-icons/fi'
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai'
