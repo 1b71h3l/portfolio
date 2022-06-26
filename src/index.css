@@ -117,8 +117,9 @@ img {
         width: var(--container-width-md);     
     }
 
-    .section {
+    section {
         margin-top: 6rem;
+        height: 150vh;
     }
     
 }
@@ -129,7 +130,7 @@ img {
         width: var(--container-width-ms);     
     }
 
-    .section {
+    section {
         margin-top: 2rem;
     }
     
