@@ -21,7 +21,7 @@
    --transition : all 400ms ease;
    --container-width-lg: 75%;
    --container-width-md: 86%;
-   --container-width-ms: 90%;
+   --container-width-sm: 90%;
 
 }
 
@@ -58,7 +58,6 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
 }
 
 section > h2 , section > h5 {
@@ -119,7 +118,6 @@ img {
 
     section {
         margin-top: 6rem;
-        height: 150vh;
     }
     
 }
@@ -127,7 +125,7 @@ img {
 /*#########################MEDIA QUERIES (SMALL DEVICES) ######################*/
 @media screen and (max-width : 600px) {
     .container {
-        width: var(--container-width-ms);     
+        width: var(--container-width-sm);     
     }
 
     section {
