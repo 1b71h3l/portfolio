@@ -16,10 +16,51 @@ const portfilio = () => {
       <div className="container portfolio__container">
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
+          <img src={IMG1} alt="" />
+          </div>
             <h3>This is a portfolio item title</h3>
             <a href="https://github.com/1b71h3l" className='btn' target='_blank'>Github</a>
             <a href="https://dribbble.com/alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+          <img src={IMG1} alt="" />
           </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/1b71h3l" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+          <img src={IMG1} alt="" />
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/1b71h3l" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+          <img src={IMG1} alt="" />
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/1b71h3l" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+          <img src={IMG1} alt="" />
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/1b71h3l" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+          <img src={IMG1} alt="" />
+          </div>
+            <h3>This is a portfolio item title</h3>
+            <a href="https://github.com/1b71h3l" className='btn' target='_blank'>Github</a>
+            <a href="https://dribbble.com/alien_pixels"className='btn btn-primary' target='_blank'>Live Demo</a>
         </article>
       </div>
     </section>
